@@ -1,0 +1,97 @@
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 1000px;
+}
+
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+}
+
+
+.tombol-lihat {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9DD85D;
+    filter: drop-shadow(0px 5px 0px #D6D6D6);
+    display: inline-block;
+    width: 100px;
+}
+
+.tombol-lihat:hover {
+    transform: translate(0px,5px);
+    filter: drop-shadow(0px 1px 0px #D6D6D6);
+}
+
+.tombol-hapus {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9DD85D;
+    filter: drop-shadow(0px 5px 0px #D6D6D6);
+    display: inline-block;
+    width: 100px;
+}
+
+.tombol-hapus:hover {
+    transform: translate(0px,5px);
+    filter: drop-shadow(0px 1px 0px #D6D6D6);
+}
+
+.modal {
+    display: none;
+}
+
+.modal-active {
+    z-index: 9999;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-absolute {
+    z-index: 99999;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.silang {
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #9DD85D;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
